@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- for responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- for scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- for icons -->
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
+
+    <title>Stewi Works</title>
+</head>
+<body>
+    <!-- Navbar -->
+     <nav>
+        <a href="index.html" class="brand">
+            <h1>Stewi Works</h1>
+        </a>
+        <div class="menu">
+            <div class="btn">
+                <i class="fas fa-times close-btn"></i>
+            </div>
+            <a href="index.html">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#works">Works</a>
+            <button class="btn-2" onclick="window.location.href='contact.html'">
+                <i class="fas fa-paper-plane"></i>
+                Contact
+            </button>
+        </div>
+
+        <div class="btn">
+            <i class="fas fa-bars menu-btn"></i>
+        </div>
+     </nav>
+    <!-- Nav end -->
+
+    <!-- Hero Section -->
+     <section class="hero-section" id="hero-section">
+        <img src="assets/me.jpg" alt="my image">
+
+        <div class="hero-headline">
+            <h1>Kanai Kumar</h1>
+            <h2>Backend Enginner</h2>
+
+            <!-- Hero Buttons -->
+             <div class="hero-buttons">
+                <button class="btn-2 btn-hero" onclick="window.location.href = 'index.html#works'">
+                    <i class="fa-solid fa-arrow-right-long" style="color: white;"></i>
+                    <p>See my projects</p>
+                 </button>
+                 <button class="btn-2 btn-hero" onclick="window.location.href='contact.html'">
+                    <i class="fas fa-paper-plane"></i>
+                    Contact
+                </button>
+             </div>
+
+            <!-- Hero Logos -->
+             <div class="hero-logos">
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-react"></i>
+                <i class="fa-brands fa-node"></i>
+                <i class="fa-brands fa-docker"></i>
+                <i class="fa-brands fa-aws"></i>
+
+             </div>
+
+             <div class="hero-tagline">
+                <p>The only way to do good work is to love what you do</p>
+                <hr class="divider">
+             </div>
+        </div>
+     </section>
+    <!-- Hero Section end -->
+    <script src="index.js"></script>
+</body>
+</html>
