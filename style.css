@@ -180,6 +180,7 @@ nav.sticky{
 .hero-headline h2{
     font-size: 64px;
     color: var(--accent);
+    font-weight: bold;
 }
 
 .hero-buttons{
@@ -652,4 +653,150 @@ footer a {
     color: #ff4d4d;
     margin: 0 5px;
     animation: heartbeat 1.5s infinite;
+}
+
+/* Work Page Section */
+
+.work-page{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.work-page-title{
+    display: flex;
+    align-items: center;
+}
+
+.work-page-title h1{
+    font-size: 128px;
+}
+
+.work-page-title h4{
+    font-size: 32px;
+    opacity: 0.5;
+}
+
+.work-page p{
+    font-size: 32px;
+    width: 972px;
+}
+
+.work-page .work-links{
+    margin: 30px 0px 50px 0px;
+}
+
+.work-page-images{
+    margin: 50px 0px 100px 0px;
+    display: flex;
+    gap: 24px;
+}
+
+.work-page-images img{
+    width: 500px;
+    height: 500px;
+    transform: scale(1);
+    transition: all ease-in 0.3s;
+}
+
+.work-page-images img:hover{
+    transform: scale(0.9);
+}
+
+
+/* Contact Page Section */
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    padding: 0px 50px;
+}
+
+.contact h1{
+    font-size: 128px;
+    width: 600px;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-tagline{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.contact-tagline img{
+    height: 30px;
+}
+
+.contact-tagline p{
+    width: 411px;
+}
+
+.contact-info{
+    display: flex;
+    gap: 40px;
+    margin-top: 70px;
+}
+
+.contact-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-item h6{
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.contact-item p{
+    font-size: 24px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 0px 100px;
+    margin-top: 30px;
+}
+
+.contact-form input, .contact-form textarea{
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 48px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+}
+
+.contact-form input:focus{
+    outline: none;
+}
+
+.btn-contact{
+    width: 300px;
+    height: 80px;
+    font-size: 32px;
+    background-color: var(--accent);
+    color: white;
+    cursor: pointer;
+    margin-bottom: 100px;
+    border: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-contact:hover{
+    background-color: white;
+    color: var(--black);
 }
